@@ -38,7 +38,7 @@ end
 gem 'spring',        group: :development
 
 group :production do
-  gem 'pd'
+  gem 'pg'
   gem 'rails_12factor'
 end
 # Use ActiveModel has_secure_password
